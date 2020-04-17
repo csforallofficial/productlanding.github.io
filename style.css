@@ -1,0 +1,114 @@
+#header-img{
+  width:300px;
+  
+}
+header{
+  width:100%;
+  display:flex;
+  align-items:center;
+}
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:space-around;
+  
+  
+}
+a{
+  font-family:'Lato','cursive';
+  color:#ff9900;
+  font-weight:bold;
+  text-decoration:none;
+}
+nav{
+  width:100%;
+}
+#header-img2{
+  width:150px;
+  margin-left:-110px;
+  margin-bottom:40px;
+}
+#specials{
+  font-size:42px;
+  font-family:'Lato','cursive';
+  color:#ff9900;
+  margin-top:-37px;
+  font-weight:300;
+  margin-left:-6px
+}
+.Sign-up-page{
+  height:500px;
+  background-image:url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  border-radius:50%;
+  border:3px solid black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#form{
+  text-align:centr;
+  margin-bottom:50px;
+}
+#two{
+  font-family:'Lato','cursive';
+  color:#f8f8ff;
+  margin-left:58px;
+  margin-bottom:50px;
+  font-size:50px;
+  font-weight:300;
+}
+#email-label{
+  font-family:'Lato','cursive';
+  color:#f8f8ff;
+  font-size:15px;
+  font-weight:300;
+}
+#email{
+  text-align:center;
+}
+#submit{
+  background-image:linear-gradient(to right,#e49e7a,#8e677a);
+  border-radius:50%;
+  border:2px solid coral;
+}
+#body-one{
+  width:1342px;
+  border-radius:25%;
+  border:3px solid coral;
+}
+.video-page{
+  width:600px;
+  height:400px;
+  background-image:url("https://images.pexels.com/photos/1376766/nature-milky-way-galaxy-space-1376766.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  border:3px solid purple;
+  border-radius:15%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#video{
+  margin-left:90px;
+  margin-top:127px;
+}
+#bodytwo{
+  width:1333px;
+}
+#bodythree{
+  width:1333px;
+  
+}
+#bodyfour{
+  width:1333px;
+  
+}
+#bodyfive{
+  width:1333px;
+}
+@media only screen and (max-width: 600px){
+  nav{
+    display:none;
+  }
+}
+
+
+
+
